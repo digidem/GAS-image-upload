@@ -23,3 +23,6 @@ From a Google Spreadsheet create a new Script project, and paste in the code fro
 
 The first time you open the sheet or try to edit, it will ask for your Blitline Application ID. You can sign up for a developer account at http://www.blitline.com/ which gives you 2 hours of free processing time, which is plenty for this application.
 
+## Limitations
+
+This does not work in the new version of Google Sheets at the moment, because the edit event does not correctly return the range of the edited cell. See https://developers.google.com/apps-script/migration/sheets#onedit_triggers
